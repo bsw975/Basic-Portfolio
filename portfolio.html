@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="UTF-8">
     <title>Portfolio</title>
-      </head>
+</head>
 
     <!-- This is the body - the html body -->
-<body>
+    <body>
     <header >
-        
         <!-- A full-width section to span the browser
-        then a div for the name and nav
-        then a div for my name only -->
-
+        then a div for the name and nav then a div for
+        my name only -->
         <div class="fullWidth" id="ribbon"> 
           <section class="banner">
             <div id="myName">
@@ -34,19 +31,36 @@
         </div>
     </header>
 
-    
-    <!-- This is the main content -->
+    <!-- This is the main content, spanning the whole screen -->
     <section class="fullWidth">
-        <div class="mainContact">
+
+        <!-- This is the 960px, center portion of the main content -->
+        <div class="mainContent">
+
             <h1>Portfolio</h1>
+<!-- TODO - This div needs to be replaced by css -->
             <div class="Separator">
                 </div>
-            <div id="gallery">
-                <img src="assets/images/gal1.png" />
-                <img src="assets/images/gal2.png" />
-                <img src="assets/images/gal3.png" />
-                <img src="assets/images/gal4.png" />
-                <img src="assets/images/gal5.png" />
+                
+            <div class="relative">
+                    <img src="assets/images/gal1.png" />
+                    <div class="absolute">Music</div>
+                </div>
+                <div class="relative">
+                    <img src="assets/images/gal2.png" />           
+                    <div class="absolute">Joy</div>
+                </div>
+                <div class="relative">
+                    <img src="assets/images/gal3.png" />            
+                    <div class="absolute">Ego</div>
+                </div>
+                <div class="relative">
+                    <img src="assets/images/gal4.png" />                
+                    <div class="absolute">Movies</div>
+                </div>
+                <div class="relative">
+                    <img src="assets/images/gal5.png" />                
+                    <div class="absolute">Purpose</div>
                 </div>
         </div>
     </section>
