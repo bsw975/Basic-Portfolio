@@ -1,5 +1,6 @@
 body {
     background: #ddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
@@ -7,35 +8,48 @@ header {
 }
 
 h1 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     padding: 15px;
-    color: rgb(26, 216, 175);
+    color: #4aaaa5;
 }
 
 a {
     text-decoration: none;
+    color: #666;
 }
 
+input {
+    width: 97%;
+}
+
+textarea {
+    width: 97%;
+    height: 200px;
+}
 footer {
     height: 50px;
     position: fixed;
     bottom: 0;
     width: 100%;
     background: #666;
+    margin: 0;
 }
 
 .fullWidth {
     width: 100%;
 }
 
-#ribbon {
-    background: white;
-}
 
 .banner {
     width: 960px;
     margin: 0 auto;
     background: white;
     height: 54px;
+}
+
+.nav {
+    float: right;
+    padding: 18px;
 }
 
 /* .banner::after {
@@ -51,22 +65,37 @@ footer {
     padding: 0;
 }
 
-#myName{
-    float: left;
-    width: 10%;
-    background: rgb(26, 216, 175);
-    padding: 18px;
-    color: white;
-    font-size: 12pt;
+.mainContact {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    border: 15px;
+}
+
+.contactInput {
+    padding: 8px 0px 4px 0px;
+}
+
+#ribbon {
+    background: white;
 }
 
 #clickable {
     margin: 11px;
 }
 
-.nav {
-    float: right;
+#myName{
+    float: left;
+    width: 15%;
+    background: #4aaaa5;
     padding: 18px;
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#biography {
+    padding: 20px;
 }
 
 #Separator {
@@ -76,11 +105,20 @@ footer {
     /* padding 0 15 0 15; */
 }
 
-
-
 #image {
     float: left;
     padding: 20px;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    background: #4aaaa5;
+    padding: 10px;
+}
+
+#footerFlair {
+
 }
 
 #copyright {
@@ -88,10 +126,8 @@ footer {
     width: 960px;
     left: 50%;
     margin-left: 240px;
-    /* background-color: #666; */
+    padding-top: 30px;
     text-align: center;
+    vertical-align: bottom;
 }
 
-#biography {
-    padding: 20px;
-}
