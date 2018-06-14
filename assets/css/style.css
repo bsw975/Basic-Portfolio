@@ -1,0 +1,97 @@
+body {
+    background: #ddd;
+}
+
+header {
+    height: 100px;
+}
+
+h1 {
+    padding: 15px;
+    color: rgb(26, 216, 175);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #666;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+#ribbon {
+    background: white;
+}
+
+.banner {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    height: 54px;
+}
+
+/* .banner::after {
+    content: "";
+    display: table;
+    clear: both;
+}  */
+
+.mainContent {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 0;
+}
+
+#myName{
+    float: left;
+    width: 10%;
+    background: rgb(26, 216, 175);
+    padding: 18px;
+    color: white;
+    font-size: 12pt;
+}
+
+#clickable {
+    margin: 11px;
+}
+
+.nav {
+    float: right;
+    padding: 18px;
+}
+
+#Separator {
+    height: 2px;
+    background: #aaa;
+    width: 95%;
+    /* padding 0 15 0 15; */
+}
+
+
+
+#image {
+    float: left;
+    padding: 20px;
+}
+
+#copyright {
+    height: 100px;
+    width: 960px;
+    left: 50%;
+    margin-left: 240px;
+    /* background-color: #666; */
+    text-align: center;
+}
+
+#biography {
+    padding: 20px;
+}
