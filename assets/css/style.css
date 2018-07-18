@@ -19,9 +19,19 @@ h2 {
     background: #4aaaa5;
     text-align: center;
 }
+h2 span {
+    color: black;
+    font: bold 20px/45px Helvetica, Sans-Serif;
+    /* background: #4aaaa5; */
+    padding: 10px;
+}
 a {
     text-decoration: none;
     color: #666;
+}
+img {
+    margin: 20px;
+    position: relative;
 }
 input {
     width: 97%;
@@ -38,13 +48,7 @@ footer {
     background: #666;
     margin: 0;
 }
-img {
-    /* margin: 20px; */
-    position: relative;
-}
 /* =========CLASSES======== */
-
-
 div.relative {
     border-right: 10px;
     margin: 10 55 10 15;
@@ -54,8 +58,6 @@ div.relative {
     /* border: 3px solid #73AD21; */
     float: left;
 } 
-
-
 div.absolute {
     position: absolute;
     top: 150px;
@@ -66,7 +68,6 @@ div.absolute {
     text-align: center;
     padding-top: 10px;
 }
-
 .banner {
     width: 960px;
     margin: 0 auto;
@@ -74,7 +75,11 @@ div.absolute {
     height: 54px;
 }
 .contactInput {
+    width: 200px;
     padding: 8px 0px 4px 0px;
+    margin-top: 14px;
+    background: #4aaaa5;
+    font: bold 45px Helvetica, Sans-Serif;
 }
 .footerFlair {
     width: 100%;
@@ -96,11 +101,6 @@ div.absolute {
     width: 225;
     height: 175;
 }
-/* .banner::after {
-    content: "";
-    display: table;
-    clear: both;
-}  */
 .mainContent {
     width: 960px;
     margin: 0 auto;
@@ -122,40 +122,17 @@ div.absolute {
     height: 2px;
     background: #aaa;
     width: 95%;
-    /* padding 0 15 0 15; */
 }
-h2 span {
-    color: black;
-    font: bold 20px/45px Helvetica, Sans-Serif;
-    /* background: #4aaaa5; */
-    padding: 10px;
+.typeHere {
+    padding: 15px;
+    margin: 15px;
 }
-#ribbon {
-    background: white;
-}
-#clickable {
-    margin: 11px;
-}
-#myName{
-    float: left;
-    width: 15%;
-    background: #4aaaa5;
-    padding: 18px;
-    color: white;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
+/* =========IDs======== */
 #biography {
     padding: 20px;
 }
-#image {
-    float: left;
-    padding: 20px;
-}
-#submit {
-    width: 80px;
-    height: 30px;
-    background: #4aaaa5;
-    padding: 10px;
+#clickable {
+    margin: 11px;
 }
 #copyright {
     height: 80px;
@@ -166,4 +143,24 @@ h2 span {
     text-align: center;
     vertical-align: bottom;
 }
-
+#image {
+    float: left;
+    padding: 20px;
+}
+#myName{
+    float: left;
+    width: 15%;
+    background: #4aaaa5;
+    padding: 18px;
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+#ribbon {
+    background: white;
+}
+#submit {
+    width: 80px;
+    height: 30px;
+    background: #4aaaa5;
+    padding: 10px;
+}
